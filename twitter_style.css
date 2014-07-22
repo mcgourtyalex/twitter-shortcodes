@@ -1,0 +1,118 @@
+    
+/*=======================================
+STYLES FOR TWITTER EMBEDS
+July 2014 Alex McGourty
+=========================================*/
+
+.twitter_text {
+    color: #555555;
+    margin-left: 10px;
+    margin: 5px;
+}
+.twitter_text:hover {
+    color: #222222;
+}
+.twitter_table {
+    border: none;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+.twitter_date {
+    display: inline;
+    float: left;
+}
+div.twitter_tag {
+    display: inline;
+    float: right;
+}
+div.twitter_follow {
+    float: right;
+    margin-top: 10px;
+    display: none;
+}
+td.twitter_tweet:hover .twitter_follow {
+    display: inline;
+}
+a.twitter_tag_link:link, a.twitter_tag_link:active, a.twitter_tag_link:visited {
+    color: #999999;
+}
+a.twitter_tag_link:hover {
+    color: #555555;
+}
+td.twitter_info {
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    background: #F3F3F3;
+    color: #999999;
+}
+td.twitter_tweet {
+    padding: 10px;
+    border-bottom: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+}
+td.twitter_gap_td {
+    border:none;
+    height: 10px;
+    border-top: 1px solid #dddddd;
+}
+
+a.item_title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+div.twitter_circle_fun {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    float: left;
+    transition: all 0.4s ease-in-out;
+    background: #F3F3F3;
+}
+    
+a.twitter_text:hover div.twitter_circle_fun {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    float: left;
+    background: #F3F3F3;
+}
+    
+.twitter_button {
+    color: #FFF;
+    background-color: #4675AB;
+    border: 1px solid #3868B6;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    margin: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-left: 10px;
+    padding-right: 14px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-sizing: content-box;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.twitter_icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
